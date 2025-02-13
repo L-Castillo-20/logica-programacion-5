@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(17, 135, 204);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.form {
+    display: grid;
+    place-items: center;
+    background-color: beige;
+    margin-top: 200px;
+    width: 400px;
+    margin-left: 500px;
+    border-radius: 20px;
+} 
+
+#guessInput {
+    width: 200px;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 10px; /* Bordes curvos */
+    outline: none;
+    transition: 0.3s;
+}
+
+.title {
+
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(23, 195, 198);
+    white-space: nowrap;
+
+}
